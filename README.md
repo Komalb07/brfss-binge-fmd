@@ -31,3 +31,19 @@ The analysis uses publicly available BRFSS annual survey data (2013–2019), whi
 ## Requirements
 - This project is written in R and relies on the packages present in requirements.txt file.
 - Those packages can be downloaded using install.packages()
+
+## Usage
+1. Clone this repository: git clone https://github.com/Komalb07/brfss-binge-fmd.git
+2. Open R or RStudio and set the working directory to the repo.
+3. Run the notebooks in order:
+   - Start with data_processing.R to prepare the dataset.
+   - Then run stepwise_modeling.R to fit the nested models and produce results.
+
+## Notes
+- Ensure that the raw BRFSS .XPT files for 2013–2019 are downloaded and accessible to the data preparation script.
+- The analysis uses survey weights; results are representative at the population level.
+- This project was conducted as part of a research collaboration exploring racial/ethnic disparities in alcohol-related mental health outcomes.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
