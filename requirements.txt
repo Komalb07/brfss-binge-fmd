@@ -1,0 +1,10 @@
+# R package requirements for BRFSS binge drinking & FMD analysis
+
+survey
+dplyr
+broom
+ggplot2
+car
+corrplot
+performance
+sjPlot
